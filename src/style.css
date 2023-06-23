@@ -1,0 +1,60 @@
+.container {
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 15px;
+
+  background-color: #9dc1d6;
+}
+form {
+  text-align: center;
+  padding: 20px;
+}
+.btn {
+  background-color: #528ed7;
+  border-color: #528ed7;
+}
+
+.row {
+  text-align: center;
+  padding: 20px;
+}
+.col-4 {
+  font-size: 25px;
+  color: #536881;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: bold;
+  color: #528ed7;
+}
+
+.icon {
+  font-size: 60px;
+  color: #ffaa00;
+  display: block;
+}
+
+.card {
+  font-size: 20px;
+  color: #536881;
+}
+
+.sun-icon {
+  font-size: 35px;
+  color: #ffaa00;
+}
+
+.sun-cloud-icon {
+  font-size: 35px;
+  color: #426a87;
+}
+.cloud-icon {
+  font-size: 35px;
+  color: #47505b;
+}
+.rain-icon {
+  font-size: 35px;
+  color: #22538f;
+}
