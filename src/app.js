@@ -38,6 +38,8 @@ function showTemp(response) {
   tempElement.innerHTML = `${temp}ºC`;
   let h1 = document.querySelector("#city-value");
   h1.innerHTML = response.data.name;
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.weather[0].description;
 }
 
 function currentLocation(position) {
