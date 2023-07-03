@@ -40,6 +40,8 @@ function showTemp(response) {
   h1.innerHTML = response.data.name;
   let descriptionElement = document.querySelector("#description");
   descriptionElement.innerHTML = response.data.weather[0].description;
+  let windElement = document.querySelector("#windspeed");
+  windElement.innerHTML = response.data.wind.speed;
 }
 
 function currentLocation(position) {
