@@ -33,7 +33,7 @@ let click = document.querySelector("form");
 click.addEventListener("submit", form);
 
 function showTemp(response) {
-  let celsiusTemperature = Math.round(response.data.main.temp);
+  celsiusTemperature = Math.round(response.data.main.temp);
   let tempElement = document.querySelector("#temperature");
   tempElement.innerHTML = celsiusTemperature;
 
@@ -61,7 +61,7 @@ function displayCelsiusTemperature(event) {
   let tempElement = document.querySelector("#temperature");
   tempElement.innerHTML = celsiusTemperature;
 }
-let celsiusTemperature = showTemp(response);
+let celsiusTemperature = null;
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
